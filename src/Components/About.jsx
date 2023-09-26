@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/texture.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "";// En espera
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a passionate Information Systems Engineering student with a solid background in multimedia design, user interface design, and web development.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -33,19 +33,15 @@ const description =
 const skillsList = [
   "Web design",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Multimedia Design",
+  "Web Development",
+  "Agile Methodologies",
+  "Teamwork",
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
+
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "My focus is on creating exceptional user experiences through the design and development of engaging and functional interfaces. I am always eager to acquire and improve my knowledge and have a strong commitment to teamwork and cooperation.";
 
 const About = () => {
   return (
